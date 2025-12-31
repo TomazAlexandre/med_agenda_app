@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "869678770162",
+    "project_id": "med-agenda-app-a9746",
+    "storage_bucket": "med-agenda-app-a9746.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869678770162:android:237a12fe5e10426c8ead6b",
+        "android_client_info": {
+          "package_name": "com.example.med_agenda_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARZjGEVj_K0V1_thHBZpLyqTewEzn9fE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

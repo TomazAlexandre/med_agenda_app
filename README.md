@@ -1,16 +1,49 @@
-# med_agenda_app
+# 🏥 Med Agenda App
 
-A new Flutter project.
+Aplicativo de **telemedicina** desenvolvido em **Flutter**, focado em agendamento de consultas médicas e videochamadas, com suporte a **paciente** e **médico**.
 
-## Getting Started
+Projeto construído como **MVP**, com navegação completa e interfaces mockadas, ideal para validação de ideia, apresentações ou evolução futura com backend.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 👤 Paciente
+- Login (mock)
+- Visualização de consultas
+- Agendamento de consultas
+- Acesso à videochamada
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🩺 Médico
+- Dashboard com consultas do dia
+- Status das consultas
+- Acesso à videochamada
+
+### 🎥 Videochamada (Mock)
+- Interface simulada
+- Controles de microfone e câmera
+- Timer de chamada
+
+---
+
+## 🧱 Arquitetura do Projeto
+
+```text
+lib/
+ ├─ main.dart
+ ├─ app.dart
+ ├─ core/
+ │   ├─ routes.dart
+ │   ├─ theme.dart
+ │   └─ widgets/
+ │       └─ fade_slide.dart
+ └─ features/
+     ├─ auth/
+     │   └─ login_page.dart
+     ├─ dashboard/
+     │   ├─ patient_dashboard.dart
+     │   └─ doctor_dashboard.dart
+     ├─ schedule/
+     │   └─ schedule_page.dart
+     └─ videocall/
+         └─ videocall_page.dart

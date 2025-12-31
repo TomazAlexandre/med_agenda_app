@@ -9,7 +9,19 @@ class PatientDashboard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Minhas Consultas'),
-        leading: const Hero(tag: 'logo', child: Icon(Icons.local_hospital)),
+        leading: const Hero(
+          tag: 'logo',
+          child: Icon(Icons.local_hospital),
+        ),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.history),
+            tooltip: 'Histórico de Consultas',
+            onPressed: () {
+              Navigator.pushNamed(context, '/history');
+            },
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () => Navigator.pushNamed(context, '/schedule'),
