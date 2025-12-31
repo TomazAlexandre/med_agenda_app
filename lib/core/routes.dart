@@ -12,6 +12,6 @@ class AppRoutes {
     '/doctor': (_) => const DoctorDashboard(),
     '/patient': (_) => const PatientDashboard(),
     '/schedule': (_) => const SchedulePage(),
-    '/videocall': (_) => const VideoCallPage(),
+    '/call': (_) => const VideoCallPage(),
   };
 }
